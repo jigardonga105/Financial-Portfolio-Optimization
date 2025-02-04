@@ -43,6 +43,17 @@ mutual_funds = [
     'BSLGOLDETF.NS'
 ]
 
+index = {
+    '^NSEI': 'NIFTY 50',
+    '^NSEBANK': 'NIFTY BANK',
+    '^CNXIT': 'NIFTY IT',
+    '^BSESN': 'S&P BSE SENSEX',
+    'NIFTY_MIDCAP_100.NS': 'NIFTY MIDCAP 100',
+    '^CNXPSUBANK': 'NIFTY PSU BANK',
+    '^CNXAUTO': 'NIFTY AUTO',
+    'NIFTY_FIN_SERVICE.NS': 'NIFTY FIN SERVICE'
+}
+
 mutual_funds_names = {
     '0P00005WL6': 'UTI Nifty 50 Index Fund',
     'UTINEXT50': 'UTI-Nifty Next 50 Exchange Traded Fund',
